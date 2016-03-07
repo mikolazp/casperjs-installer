@@ -28,7 +28,7 @@ class Installer
     public static function install(Event $event)
     {
         //Install PhantomJs before CasperJs
-        \PhantomInstaller\Installer::installPhantomJS($event);
+       // \PhantomInstaller\Installer::installPhantomJS($event);
 
         $composer = $event->getComposer();
 
