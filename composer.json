@@ -1,8 +1,8 @@
 {
-    "name": "jerome-breton/casperjs-installer",
+    "name": "mikolazp/casperjs-installer",
     "description": "A Composer package which installs the CasperJS binary for your project.",
     "type": "custom-installer",
-    "keywords": ["casperjs", "phantomjs", "headless", "binaries"],
+    "keywords": ["casperjs", "headless", "binaries"],
     "license": "MIT",
     "authors": [
         {
@@ -11,8 +11,7 @@
         }
     ],
     "require": {
-        "ext-openssl": "*",
-        "jakoch/phantomjs-installer": "1.9.*"
+        "ext-openssl": "*"
     },
     "autoload": {
         "psr-0": {
