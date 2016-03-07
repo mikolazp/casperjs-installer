@@ -75,7 +75,7 @@ class Installer
         $packages = $composer->getRepositoryManager()->getLocalRepository()->getCanonicalPackages();
 
         foreach($packages as $package) {
-            if($package->getName() === 'jerome-breton/casperjs-installer') {
+            if($package->getName() === 'mikolazp/casperjs-installer') {
                 $version = $package->getPrettyVersion();
             }
         }
